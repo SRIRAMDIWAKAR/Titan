@@ -1,0 +1,194 @@
+@import url(./main.css);
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Roboto,sans-serif;
+}
+#nav{
+    /* border: 2px solid; */
+    height: 30px;
+    width: 100%;
+    background-color: rgb(15, 182, 175); 
+   
+}
+#close{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 75%;
+    display: flex;
+    margin-left: 380px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#close button{
+    background-color: rgb(15, 182, 175); 
+}
+#nav1{
+    /* border: 2px solid; */
+    height: 70px;
+    width: 100%;
+}
+#sub-nav{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#sub-nav i{
+    font-size: 25px;
+    transform: translate(-60px);
+    color: #898282;
+}
+#sub-nav button{
+    background-color: #fff;
+    
+}
+#sub-nav img{
+    height: 30px;
+}
+#sub-nav input{
+    height: 50px;
+    width: 900px;
+    font-size: 20px;
+}
+
+#nav2{
+    /* border: 2px solid; */
+    height: 50px;
+    width: 100%;
+
+}
+#sub-nav2{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 60%;
+    margin: auto;
+    
+}
+#sub-nav2 ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+#try{
+    /* border: 2px solid; */
+    height: 50px;
+    width: 100%;
+    
+}
+#try1{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#virtual option{
+    font-size: 15px;
+    text-decoration: none;
+}
+#on{
+    font-size: 10px;
+    display: flex;
+    
+}
+#center{
+    /* border: 2px solid; */
+    height: 400px;
+    width: 100%;
+    background-image: url(./img/TD_Watchcarnival_060823_espot.gif);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    overflow-clip-margin: content-box;
+}
+#found{
+    /* border: 2px solid; */
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#found p{
+    font-size: 25px;
+}
+#compare{
+    /* border: 2px solid; */
+    height: 70px;
+    width: 100%;
+}
+#compare1{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+#compare1 button{
+    font-size: 20px;
+    width: 15%;
+}
+#short{
+    font-size: 20px;
+    width: 15%;
+}
+#images{
+    /* border: 2px solid; */
+    height: 400px;
+    width: 100%;
+}
+#images1{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#note{
+    /* border: 2px solid; */
+    height: 40px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+#note a{
+    text-decoration: none;
+    color: #000;
+}
+#rate-one{
+    /* border:2px solid ; */
+    height: 30px;
+    width: 95%;
+}
+#rate-one ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+#emi{
+    /* border: 2px solid; */
+    height: 30px;
+    width: 100%;
+    margin: auto;
+
+}
+#emi ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
